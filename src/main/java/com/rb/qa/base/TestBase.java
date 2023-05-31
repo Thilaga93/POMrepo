@@ -1,12 +1,17 @@
 package com.rb.qa.base;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
 
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriver.Timeouts;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
@@ -44,10 +49,12 @@ public static Properties prop;
 			options.addArguments("--disable-notifications");
 			driver=new ChromeDriver(options);
 			driver.manage().window().maximize();	
-			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
-			driver.get(prop.getProperty("url"));
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		    driver.get(prop.getProperty("url"));
 	}
+		
 }
+
 }	
 
 

@@ -1,6 +1,7 @@
 package com.rb.qa.testcases;
 
 
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import com.rb.qa.base.TestBase;
@@ -21,9 +22,16 @@ public class LoginTest extends TestBase{
 		initialization();	
 	}
 	@Test(priority=1)
-	public void searchtest()
+	public void searchtest() throws Exception
 {
 		searchresults=loginpage.searchbuses(prop.getProperty("srccity"),prop.getProperty("destcity"));
+		System.out.println("End of Test case 1");
 }
+	
+	@AfterMethod
+	public void Teardown()
+	{
+		driver.quit();
+	}
 
 }

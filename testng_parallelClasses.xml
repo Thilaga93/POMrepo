@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Parallel test suite" parallel="classes" thread-count="2">
+  <test name="Test 1">
+	  <parameter name="Btype" value="AC"/>  
+<parameter name="BP" value="Avadi"/>  
+    <classes>
+      <class name="com.rb.qa.testcases.LoginTest"/>
+      <class name="com.rb.qa.testcases.CustomBusTest"/>
+    </classes>
+  </test>
+</suite>

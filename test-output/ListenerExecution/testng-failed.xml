@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ListenerExecution]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="custombuses(failed)">
+    <parameter name="Btype" value="AC"/>
+    <parameter name="BP" value="Avadi"/>
+    <groups>
+      <run>
+        <include name="navigation"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.rb.qa.testcases.CustomBusTest">
+        <methods>
+          <include name="ride"/>
+          <include name="train"/>
+        </methods>
+      </class> <!-- com.rb.qa.testcases.CustomBusTest -->
+    </classes>
+  </test> <!-- custombuses(failed) -->
+</suite> <!-- Failed suite [ListenerExecution] -->

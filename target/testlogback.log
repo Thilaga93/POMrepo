@@ -1,0 +1,844 @@
+2023-05-19 15:46:58,110 DEBUG [main] PackageRelationshipCollection  - Parsing relationship: /xl/_rels/workbook.xml.rels
+2023-05-19 15:46:58,115 DEBUG [main] PackageRelationshipCollection  - Parsing relationship: /_rels/.rels
+2023-05-19 15:46:58,824 DEBUG [main] InternalLoggerFactory  - Using SLF4J as the default logging framework
+2023-05-19 15:46:58,828 DEBUG [main] ResourceLeakDetector  - -Dio.netty.leakDetection.level: simple
+2023-05-19 15:46:58,828 DEBUG [main] ResourceLeakDetector  - -Dio.netty.leakDetection.targetRecords: 4
+2023-05-19 15:46:58,833 DEBUG [main] ResourceLeakDetectorFactory  - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@45673f68
+2023-05-19 15:46:58,857 DEBUG [main] PlatformDependent0  - -Dio.netty.noUnsafe: false
+2023-05-19 15:46:58,857 DEBUG [main] PlatformDependent0  - Java version: 17
+2023-05-19 15:46:58,858 DEBUG [main] PlatformDependent0  - sun.misc.Unsafe.theUnsafe: available
+2023-05-19 15:46:58,859 DEBUG [main] PlatformDependent0  - sun.misc.Unsafe.copyMemory: available
+2023-05-19 15:46:58,859 DEBUG [main] PlatformDependent0  - sun.misc.Unsafe.storeFence: available
+2023-05-19 15:46:58,861 DEBUG [main] PlatformDependent0  - java.nio.Buffer.address: available
+2023-05-19 15:46:58,862 DEBUG [main] PlatformDependent0  - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-05-19 15:46:58,862 DEBUG [main] PlatformDependent0  - java.nio.Bits.unaligned: available, true
+2023-05-19 15:46:58,864 DEBUG [main] PlatformDependent0  - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @7e32c033
+2023-05-19 15:46:58,867 DEBUG [main] PlatformDependent0  - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-05-19 15:46:58,867 DEBUG [main] PlatformDependent  - sun.misc.Unsafe: available
+2023-05-19 15:46:58,915 DEBUG [main] PlatformDependent  - maxDirectMemory: 1967128576 bytes (maybe)
+2023-05-19 15:46:58,915 DEBUG [main] PlatformDependent  - -Dio.netty.tmpdir: C:\Users\Raja\AppData\Local\Temp (java.io.tmpdir)
+2023-05-19 15:46:58,916 DEBUG [main] PlatformDependent  - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-05-19 15:46:58,916 DEBUG [main] PlatformDependent  - Platform: Windows
+2023-05-19 15:46:58,916 DEBUG [main] PlatformDependent  - -Dio.netty.maxDirectMemory: -1 bytes
+2023-05-19 15:46:58,916 DEBUG [main] PlatformDependent  - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-05-19 15:46:58,917 DEBUG [main] CleanerJava9  - java.nio.ByteBuffer.cleaner(): available
+2023-05-19 15:46:58,917 DEBUG [main] PlatformDependent  - -Dio.netty.noPreferDirect: false
+2023-05-19 15:46:58,923 DEBUG [main] PlatformDependent  - org.jctools-core.MpscChunkedArrayQueue: available
+2023-05-19 15:46:58,945 DEBUG [main] InternalThreadLocalMap  - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-05-19 15:46:58,945 DEBUG [main] InternalThreadLocalMap  - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-05-19 15:46:59,113 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:570a119742c4e3cc, Subject:CN=Actalis Authentication Root CA, O=Actalis S.p.A./03358520967, L=Milan, C=IT, Issuer:CN=Actalis Authentication Root CA, O=Actalis S.p.A./03358520967, L=Milan, C=IT, Key type:RSA, Length:4096, Cert Id:1729119956, Valid from:22/09/11, 4:52 pm, Valid until:22/09/30, 4:52 pm
+2023-05-19 15:46:59,115 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:1, Subject:CN=AddTrust External CA Root, OU=AddTrust External TTP Network, O=AddTrust AB, C=SE, Issuer:CN=AddTrust External CA Root, OU=AddTrust External TTP Network, O=AddTrust AB, C=SE, Key type:RSA, Length:2048, Cert Id:-326352672, Valid from:30/05/00, 4:18 pm, Valid until:30/05/20, 4:18 pm
+2023-05-19 15:46:59,116 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:1, Subject:CN=AddTrust Qualified CA Root, OU=AddTrust TTP Network, O=AddTrust AB, C=SE, Issuer:CN=AddTrust Qualified CA Root, OU=AddTrust TTP Network, O=AddTrust AB, C=SE, Key type:RSA, Length:2048, Cert Id:607365522, Valid from:30/05/00, 4:14 pm, Valid until:30/05/20, 4:14 pm
+2023-05-19 15:46:59,117 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:7777062726a9b17c, Subject:CN=AffirmTrust Commercial, O=AffirmTrust, C=US, Issuer:CN=AffirmTrust Commercial, O=AffirmTrust, C=US, Key type:RSA, Length:2048, Cert Id:630485644, Valid from:29/01/10, 7:36 pm, Valid until:31/12/30, 7:36 pm
+2023-05-19 15:46:59,118 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:7c4f04391cd4992d, Subject:CN=AffirmTrust Networking, O=AffirmTrust, C=US, Issuer:CN=AffirmTrust Networking, O=AffirmTrust, C=US, Key type:RSA, Length:2048, Cert Id:651670175, Valid from:29/01/10, 7:38 pm, Valid until:31/12/30, 7:38 pm
+2023-05-19 15:46:59,119 DEBUG [main] security  - X509Certificate: Alg:SHA384withRSA, Serial:6d8c1446b1a60aee, Subject:CN=AffirmTrust Premium, O=AffirmTrust, C=US, Issuer:CN=AffirmTrust Premium, O=AffirmTrust, C=US, Key type:RSA, Length:4096, Cert Id:-2130283955, Valid from:29/01/10, 7:40 pm, Valid until:31/12/40, 7:40 pm
+2023-05-19 15:46:59,121 DEBUG [main] security  - X509Certificate: Alg:SHA384withECDSA, Serial:7497258ac73f7a54, Subject:CN=AffirmTrust Premium ECC, O=AffirmTrust, C=US, Issuer:CN=AffirmTrust Premium ECC, O=AffirmTrust, C=US, Key type:EC, Length:384, Cert Id:-2080363786, Valid from:29/01/10, 7:50 pm, Valid until:31/12/40, 7:50 pm
+2023-05-19 15:46:59,122 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:66c9fcf99bf8c0a39e2f0788a43e696365bca, Subject:CN=Amazon Root CA 1, O=Amazon, C=US, Issuer:CN=Amazon Root CA 1, O=Amazon, C=US, Key type:RSA, Length:2048, Cert Id:-1472444962, Valid from:26/05/15, 5:30 am, Valid until:17/01/38, 5:30 am
+2023-05-19 15:46:59,123 DEBUG [main] security  - X509Certificate: Alg:SHA384withRSA, Serial:66c9fd29635869f0a0fe58678f85b26bb8a37, Subject:CN=Amazon Root CA 2, O=Amazon, C=US, Issuer:CN=Amazon Root CA 2, O=Amazon, C=US, Key type:RSA, Length:4096, Cert Id:-1766132388, Valid from:26/05/15, 5:30 am, Valid until:26/05/40, 5:30 am
+2023-05-19 15:46:59,124 DEBUG [main] security  - X509Certificate: Alg:SHA256withECDSA, Serial:66c9fd5749736663f3b0b9ad9e89e7603f24a, Subject:CN=Amazon Root CA 3, O=Amazon, C=US, Issuer:CN=Amazon Root CA 3, O=Amazon, C=US, Key type:EC, Length:256, Cert Id:-1562287523, Valid from:26/05/15, 5:30 am, Valid until:26/05/40, 5:30 am
+2023-05-19 15:46:59,124 DEBUG [main] security  - X509Certificate: Alg:SHA384withECDSA, Serial:66c9fd7c1bb104c2943e5717b7b2cc81ac10e, Subject:CN=Amazon Root CA 4, O=Amazon, C=US, Issuer:CN=Amazon Root CA 4, O=Amazon, C=US, Key type:EC, Length:384, Cert Id:-1654272513, Valid from:26/05/15, 5:30 am, Valid until:26/05/40, 5:30 am
+2023-05-19 15:46:59,126 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:20000b9, Subject:CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE, Issuer:CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE, Key type:RSA, Length:2048, Cert Id:1425294543, Valid from:13/05/00, 12:16 am, Valid until:13/05/25, 5:29 am
+2023-05-19 15:46:59,127 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:2, Subject:CN=Buypass Class 2 Root CA, O=Buypass AS-983163327, C=NO, Issuer:CN=Buypass Class 2 Root CA, O=Buypass AS-983163327, C=NO, Key type:RSA, Length:4096, Cert Id:969960563, Valid from:26/10/10, 2:08 pm, Valid until:26/10/40, 2:08 pm
+2023-05-19 15:46:59,128 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:2, Subject:CN=Buypass Class 3 Root CA, O=Buypass AS-983163327, C=NO, Issuer:CN=Buypass Class 3 Root CA, O=Buypass AS-983163327, C=NO, Key type:RSA, Length:4096, Cert Id:1264269967, Valid from:26/10/10, 1:58 pm, Valid until:26/10/40, 1:58 pm
+2023-05-19 15:46:59,130 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:a3da427ea4b1aeda, Subject:CN=Chambers of Commerce Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU, Issuer:CN=Chambers of Commerce Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU, Key type:RSA, Length:4096, Cert Id:-28263924, Valid from:01/08/08, 5:59 pm, Valid until:31/07/38, 5:59 pm
+2023-05-19 15:46:59,134 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:0, Subject:CN=Chambers of Commerce Root, OU=http://www.chambersign.org, O=AC Camerfirma SA CIF A82743287, C=EU, Issuer:CN=Chambers of Commerce Root, OU=http://www.chambersign.org, O=AC Camerfirma SA CIF A82743287, C=EU, Key type:RSA, Length:2048, Cert Id:1827306452, Valid from:30/09/03, 9:43 pm, Valid until:30/09/37, 9:43 pm
+2023-05-19 15:46:59,135 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:c9cdd3e9d57d23ce, Subject:CN=Global Chambersign Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU, Issuer:CN=Global Chambersign Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU, Key type:RSA, Length:4096, Cert Id:1271252776, Valid from:01/08/08, 6:01 pm, Valid until:31/07/38, 6:01 pm
+2023-05-19 15:46:59,136 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:10020, Subject:CN=Certum CA, O=Unizeto Sp. z o.o., C=PL, Issuer:CN=Certum CA, O=Unizeto Sp. z o.o., C=PL, Key type:RSA, Length:2048, Cert Id:-744451266, Valid from:11/06/02, 4:16 pm, Valid until:11/06/27, 4:16 pm
+2023-05-19 15:46:59,137 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:444c0, Subject:CN=Certum Trusted Network CA, OU=Certum Certification Authority, O=Unizeto Technologies S.A., C=PL, Issuer:CN=Certum Trusted Network CA, OU=Certum Certification Authority, O=Unizeto Technologies S.A., C=PL, Key type:RSA, Length:2048, Cert Id:2014002193, Valid from:22/10/08, 5:37 pm, Valid until:31/12/29, 5:37 pm
+2023-05-19 15:46:59,139 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:15c8bd65475cafb897005ee406d2bc9d, Subject:OU=ePKI Root Certification Authority, O="Chunghwa Telecom Co., Ltd.", C=TW, Issuer:OU=ePKI Root Certification Authority, O="Chunghwa Telecom Co., Ltd.", C=TW, Key type:RSA, Length:4096, Cert Id:-662636137, Valid from:20/12/04, 8:01 am, Valid until:20/12/34, 8:01 am
+2023-05-19 15:46:59,140 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:1, Subject:CN=AAA Certificate Services, O=Comodo CA Limited, L=Salford, ST=Greater Manchester, C=GB, Issuer:CN=AAA Certificate Services, O=Comodo CA Limited, L=Salford, ST=Greater Manchester, C=GB, Key type:RSA, Length:2048, Cert Id:-1197580894, Valid from:01/01/04, 5:30 am, Valid until:01/01/29, 5:29 am
+2023-05-19 15:46:59,140 DEBUG [main] security  - X509Certificate: Alg:SHA384withECDSA, Serial:1f47afaa62007050544c019e9b63992a, Subject:CN=COMODO ECC Certification Authority, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB, Issuer:CN=COMODO ECC Certification Authority, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB, Key type:EC, Length:384, Cert Id:1146488932, Valid from:06/03/08, 5:30 am, Valid until:19/01/38, 5:29 am
+2023-05-19 15:46:59,141 DEBUG [main] security  - X509Certificate: Alg:SHA384withRSA, Serial:4caaf9cadb636fe01ff74ed85b03869d, Subject:CN=COMODO RSA Certification Authority, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB, Issuer:CN=COMODO RSA Certification Authority, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB, Key type:RSA, Length:4096, Cert Id:1769425049, Valid from:19/01/10, 5:30 am, Valid until:19/01/38, 5:29 am
+2023-05-19 15:46:59,143 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:b931c3ad63967ea6723bfc3af9af44b, Subject:CN=DigiCert Assured ID Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert Assured ID Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:RSA, Length:2048, Cert Id:-385398383, Valid from:01/08/13, 5:30 pm, Valid until:15/01/38, 5:30 pm
+2023-05-19 15:46:59,143 DEBUG [main] security  - X509Certificate: Alg:SHA384withECDSA, Serial:ba15afa1ddfa0b54944afcd24a06cec, Subject:CN=DigiCert Assured ID Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert Assured ID Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:EC, Length:384, Cert Id:-645537245, Valid from:01/08/13, 5:30 pm, Valid until:15/01/38, 5:30 pm
+2023-05-19 15:46:59,144 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:ce7e0e517d846fe8fe560fc1bf03039, Subject:CN=DigiCert Assured ID Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert Assured ID Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:RSA, Length:2048, Cert Id:-860404528, Valid from:10/11/06, 5:30 am, Valid until:10/11/31, 5:30 am
+2023-05-19 15:46:59,146 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:83be056904246b1a1756ac95991c74a, Subject:CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:RSA, Length:2048, Cert Id:1341898239, Valid from:10/11/06, 5:30 am, Valid until:10/11/31, 5:30 am
+2023-05-19 15:46:59,147 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:33af1e6a711a9a0bb2864b11d09fae5, Subject:CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:RSA, Length:2048, Cert Id:1136084297, Valid from:01/08/13, 5:30 pm, Valid until:15/01/38, 5:30 pm
+2023-05-19 15:46:59,147 DEBUG [main] security  - X509Certificate: Alg:SHA384withECDSA, Serial:55556bcf25ea43535c3a40fd5ab4572, Subject:CN=DigiCert Global Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert Global Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:EC, Length:384, Cert Id:-795968543, Valid from:01/08/13, 5:30 pm, Valid until:15/01/38, 5:30 pm
+2023-05-19 15:46:59,149 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:2ac5c266a0b409b8f0b79f2ae462577, Subject:CN=DigiCert High Assurance EV Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert High Assurance EV Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:RSA, Length:2048, Cert Id:-1410680354, Valid from:10/11/06, 5:30 am, Valid until:10/11/31, 5:30 am
+2023-05-19 15:46:59,150 DEBUG [main] security  - X509Certificate: Alg:SHA384withRSA, Serial:59b1b579e8e2132e23907bda777755c, Subject:CN=DigiCert Trusted Root G4, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert Trusted Root G4, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:RSA, Length:4096, Cert Id:1057369358, Valid from:01/08/13, 5:30 pm, Valid until:15/01/38, 5:30 pm
+2023-05-19 15:46:59,151 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:983f3, Subject:CN=D-TRUST Root Class 3 CA 2 2009, O=D-Trust GmbH, C=DE, Issuer:CN=D-TRUST Root Class 3 CA 2 2009, O=D-Trust GmbH, C=DE, Key type:RSA, Length:2048, Cert Id:1430153102, Valid from:05/11/09, 2:05 pm, Valid until:05/11/29, 2:05 pm
+2023-05-19 15:46:59,151 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:983f4, Subject:CN=D-TRUST Root Class 3 CA 2 EV 2009, O=D-Trust GmbH, C=DE, Issuer:CN=D-TRUST Root Class 3 CA 2 EV 2009, O=D-Trust GmbH, C=DE, Key type:RSA, Length:2048, Cert Id:971313728, Valid from:05/11/09, 2:20 pm, Valid until:05/11/29, 2:20 pm
+2023-05-19 15:46:59,153 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:3863def8, Subject:CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net, Issuer:CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net, Key type:RSA, Length:2048, Cert Id:-328536082, Valid from:24/12/99, 11:20 pm, Valid until:24/07/29, 7:45 pm
+2023-05-19 15:46:59,154 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:456b5054, Subject:CN=Entrust Root Certification Authority, OU="(c) 2006 Entrust, Inc.", OU=www.entrust.net/CPS is incorporated by reference, O="Entrust, Inc.", C=US, Issuer:CN=Entrust Root Certification Authority, OU="(c) 2006 Entrust, Inc.", OU=www.entrust.net/CPS is incorporated by reference, O="Entrust, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:-1261404096, Valid from:28/11/06, 1:53 am, Valid until:28/11/26, 2:23 am
+2023-05-19 15:46:59,155 DEBUG [main] security  - X509Certificate: Alg:SHA384withECDSA, Serial:a68b79290000000050d091f9, Subject:CN=Entrust Root Certification Authority - EC1, OU="(c) 2012 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US, Issuer:CN=Entrust Root Certification Authority - EC1, OU="(c) 2012 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US, Key type:EC, Length:384, Cert Id:924514073, Valid from:18/12/12, 8:55 pm, Valid until:18/12/37, 9:25 pm
+2023-05-19 15:46:59,156 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:4a538c28, Subject:CN=Entrust Root Certification Authority - G2, OU="(c) 2009 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US, Issuer:CN=Entrust Root Certification Authority - G2, OU="(c) 2009 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:1936920337, Valid from:07/07/09, 10:55 pm, Valid until:07/12/30, 11:25 pm
+2023-05-19 15:46:59,157 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:d9b5437fafa9390f000000005565ad58, Subject:CN=Entrust Root Certification Authority - G4, OU="(c) 2015 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US, Issuer:CN=Entrust Root Certification Authority - G4, OU="(c) 2015 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US, Key type:RSA, Length:4096, Cert Id:1368037548, Valid from:27/05/15, 4:41 pm, Valid until:27/12/37, 5:11 pm
+2023-05-19 15:46:59,158 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:23456, Subject:CN=GeoTrust Global CA, O=GeoTrust Inc., C=US, Issuer:CN=GeoTrust Global CA, O=GeoTrust Inc., C=US, Key type:RSA, Length:2048, Cert Id:-2028617374, Valid from:21/05/02, 9:30 am, Valid until:21/05/22, 9:30 am
+2023-05-19 15:46:59,158 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:18acb56afd69b6153a636cafdafac4a1, Subject:CN=GeoTrust Primary Certification Authority, O=GeoTrust Inc., C=US, Issuer:CN=GeoTrust Primary Certification Authority, O=GeoTrust Inc., C=US, Key type:RSA, Length:2048, Cert Id:-965345157, Valid from:27/11/06, 5:30 am, Valid until:17/07/36, 5:29 am
+2023-05-19 15:46:59,159 DEBUG [main] security  - X509Certificate: Alg:SHA384withECDSA, Serial:3cb2f4480a00e2feeb243b5e603ec36b, Subject:CN=GeoTrust Primary Certification Authority - G2, OU=(c) 2007 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US, Issuer:CN=GeoTrust Primary Certification Authority - G2, OU=(c) 2007 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US, Key type:EC, Length:384, Cert Id:-1114303822, Valid from:05/11/07, 5:30 am, Valid until:19/01/38, 5:29 am
+2023-05-19 15:46:59,160 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:15ac6e9419b2794b41f627a9c3180f1f, Subject:CN=GeoTrust Primary Certification Authority - G3, OU=(c) 2008 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US, Issuer:CN=GeoTrust Primary Certification Authority - G3, OU=(c) 2008 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US, Key type:RSA, Length:2048, Cert Id:-1330153758, Valid from:02/04/08, 5:30 am, Valid until:02/12/37, 5:29 am
+2023-05-19 15:46:59,161 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:1, Subject:CN=GeoTrust Universal CA, O=GeoTrust Inc., C=US, Issuer:CN=GeoTrust Universal CA, O=GeoTrust Inc., C=US, Key type:RSA, Length:4096, Cert Id:313566089, Valid from:04/03/04, 10:30 am, Valid until:04/03/29, 10:30 am
+2023-05-19 15:46:59,162 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:40000000001154b5ac394, Subject:CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE, Issuer:CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE, Key type:RSA, Length:2048, Cert Id:536948034, Valid from:01/09/98, 5:30 pm, Valid until:28/01/28, 5:30 pm
+2023-05-19 15:46:59,163 DEBUG [main] security  - X509Certificate: Alg:SHA256withECDSA, Serial:2a38a41c960a04de42b228a50be8349802, Subject:CN=GlobalSign, O=GlobalSign, OU=GlobalSign ECC Root CA - R4, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign ECC Root CA - R4, Key type:EC, Length:256, Cert Id:-1923273545, Valid from:13/11/12, 5:30 am, Valid until:19/01/38, 8:44 am
+2023-05-19 15:46:59,164 DEBUG [main] security  - X509Certificate: Alg:SHA384withECDSA, Serial:605949e0262ebb55f90a778a71f94ad86c, Subject:CN=GlobalSign, O=GlobalSign, OU=GlobalSign ECC Root CA - R5, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign ECC Root CA - R5, Key type:EC, Length:384, Cert Id:1997048439, Valid from:13/11/12, 5:30 am, Valid until:19/01/38, 8:44 am
+2023-05-19 15:46:59,165 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:400000000010f8626e60d, Subject:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R2, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R2, Key type:RSA, Length:2048, Cert Id:7087067, Valid from:15/12/06, 1:30 pm, Valid until:15/12/21, 1:30 pm
+2023-05-19 15:46:59,166 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:4000000000121585308a2, Subject:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:733875591, Valid from:18/03/09, 3:30 pm, Valid until:18/03/29, 3:30 pm
+2023-05-19 15:46:59,166 DEBUG [main] security  - X509Certificate: Alg:SHA384withRSA, Serial:45e6bb038333c3856548e6ff4551, Subject:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R6, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R6, Key type:RSA, Length:4096, Cert Id:-506627753, Valid from:10/12/14, 5:30 am, Valid until:10/12/34, 5:30 am
+2023-05-19 15:46:59,167 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:0, Subject:OU=Go Daddy Class 2 Certification Authority, O="The Go Daddy Group, Inc.", C=US, Issuer:OU=Go Daddy Class 2 Certification Authority, O="The Go Daddy Group, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:-271444299, Valid from:29/06/04, 10:36 pm, Valid until:29/06/34, 10:36 pm
+2023-05-19 15:46:59,167 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:0, Subject:CN=Go Daddy Root Certificate Authority - G2, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US, Issuer:CN=Go Daddy Root Certificate Authority - G2, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US, Key type:RSA, Length:2048, Cert Id:439600313, Valid from:01/09/09, 5:30 am, Valid until:01/01/38, 5:29 am
+2023-05-19 15:46:59,168 DEBUG [main] security  - X509Certificate: Alg:SHA256withECDSA, Serial:0, Subject:CN=Hellenic Academic and Research Institutions ECC RootCA 2015, O=Hellenic Academic and Research Institutions Cert. Authority, L=Athens, C=GR, Issuer:CN=Hellenic Academic and Research Institutions ECC RootCA 2015, O=Hellenic Academic and Research Institutions Cert. Authority, L=Athens, C=GR, Key type:EC, Length:384, Cert Id:513613456, Valid from:07/07/15, 4:07 pm, Valid until:30/06/40, 4:07 pm
+2023-05-19 15:46:59,169 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:0, Subject:CN=Hellenic Academic and Research Institutions RootCA 2015, O=Hellenic Academic and Research Institutions Cert. Authority, L=Athens, C=GR, Issuer:CN=Hellenic Academic and Research Institutions RootCA 2015, O=Hellenic Academic and Research Institutions Cert. Authority, L=Athens, C=GR, Key type:RSA, Length:4096, Cert Id:-802976731, Valid from:07/07/15, 3:41 pm, Valid until:30/06/40, 3:41 pm
+2023-05-19 15:46:59,170 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:a0142800000014523c844b500000002, Subject:CN=IdenTrust Commercial Root CA 1, O=IdenTrust, C=US, Issuer:CN=IdenTrust Commercial Root CA 1, O=IdenTrust, C=US, Key type:RSA, Length:4096, Cert Id:1232565210, Valid from:16/01/14, 11:42 pm, Valid until:16/01/34, 11:42 pm
+2023-05-19 15:46:59,171 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:44afb080d6a327ba893039862ef8406b, Subject:CN=DST Root CA X3, O=Digital Signature Trust Co., Issuer:CN=DST Root CA X3, O=Digital Signature Trust Co., Key type:RSA, Length:2048, Cert Id:1007302312, Valid from:01/10/00, 2:42 am, Valid until:30/09/21, 7:31 pm
+2023-05-19 15:46:59,172 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:a0142800000014523cf467c00000002, Subject:CN=IdenTrust Public Sector Root CA 1, O=IdenTrust, C=US, Issuer:CN=IdenTrust Public Sector Root CA 1, O=IdenTrust, C=US, Key type:RSA, Length:4096, Cert Id:2123370772, Valid from:16/01/14, 11:23 pm, Valid until:16/01/34, 11:23 pm
+2023-05-19 15:46:59,172 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:8210cfb0d240e3594463e0bb63828b00, Subject:CN=ISRG Root X1, O=Internet Security Research Group, C=US, Issuer:CN=ISRG Root X1, O=Internet Security Research Group, C=US, Key type:RSA, Length:4096, Cert Id:1521974916, Valid from:04/06/15, 4:34 pm, Valid until:04/06/35, 4:34 pm
+2023-05-19 15:46:59,173 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:a7ea6df4b449eda6a24859ee6b815d3167fbbb1, Subject:CN=LuxTrust Global Root 2, O=LuxTrust S.A., C=LU, Issuer:CN=LuxTrust Global Root 2, O=LuxTrust S.A., C=LU, Key type:RSA, Length:4096, Cert Id:-1239330694, Valid from:05/03/15, 6:51 pm, Valid until:05/03/35, 6:51 pm
+2023-05-19 15:46:59,174 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:bb8, Subject:CN=LuxTrust Global Root, O=LuxTrust s.a., C=LU, Issuer:CN=LuxTrust Global Root, O=LuxTrust s.a., C=LU, Key type:RSA, Length:2048, Cert Id:1714819687, Valid from:17/03/11, 3:21 pm, Valid until:17/03/21, 3:21 pm
+2023-05-19 15:46:59,177 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:3ab6508b, Subject:CN=QuoVadis Root Certification Authority, OU=Root Certification Authority, O=QuoVadis Limited, C=BM, Issuer:CN=QuoVadis Root Certification Authority, OU=Root Certification Authority, O=QuoVadis Limited, C=BM, Key type:RSA, Length:2048, Cert Id:-1882405602, Valid from:20/03/01, 12:03 am, Valid until:18/03/21, 12:03 am
+2023-05-19 15:46:59,178 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:78585f2ead2c194be3370735341328b596d46593, Subject:CN=QuoVadis Root CA 1 G3, O=QuoVadis Limited, C=BM, Issuer:CN=QuoVadis Root CA 1 G3, O=QuoVadis Limited, C=BM, Key type:RSA, Length:4096, Cert Id:-762436034, Valid from:12/01/12, 10:57 pm, Valid until:12/01/42, 10:57 pm
+2023-05-19 15:46:59,179 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:509, Subject:CN=QuoVadis Root CA 2, O=QuoVadis Limited, C=BM, Issuer:CN=QuoVadis Root CA 2, O=QuoVadis Limited, C=BM, Key type:RSA, Length:4096, Cert Id:338250116, Valid from:24/11/06, 11:57 pm, Valid until:24/11/31, 11:53 pm
+2023-05-19 15:46:59,180 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:445734245b81899b35f2ceb82b3b5ba726f07528, Subject:CN=QuoVadis Root CA 2 G3, O=QuoVadis Limited, C=BM, Issuer:CN=QuoVadis Root CA 2 G3, O=QuoVadis Limited, C=BM, Key type:RSA, Length:4096, Cert Id:696763521, Valid from:13/01/12, 12:29 am, Valid until:13/01/42, 12:29 am
+2023-05-19 15:46:59,181 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:5c6, Subject:CN=QuoVadis Root CA 3, O=QuoVadis Limited, C=BM, Issuer:CN=QuoVadis Root CA 3, O=QuoVadis Limited, C=BM, Key type:RSA, Length:4096, Cert Id:1470392860, Valid from:25/11/06, 12:41 am, Valid until:25/11/31, 12:36 am
+2023-05-19 15:46:59,182 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:2ef59b0228a7db7affd5a3a9eebd03a0cf126a1d, Subject:CN=QuoVadis Root CA 3 G3, O=QuoVadis Limited, C=BM, Issuer:CN=QuoVadis Root CA 3 G3, O=QuoVadis Limited, C=BM, Key type:RSA, Length:4096, Cert Id:-705622991, Valid from:13/01/12, 1:56 am, Valid until:13/01/42, 1:56 am
+2023-05-19 15:46:59,182 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:0, Subject:OU=Security Communication RootCA1, O=SECOM Trust.net, C=JP, Issuer:OU=Security Communication RootCA1, O=SECOM Trust.net, C=JP, Key type:RSA, Length:2048, Cert Id:1802358121, Valid from:30/09/03, 9:50 am, Valid until:30/09/23, 9:50 am
+2023-05-19 15:46:59,183 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:0, Subject:OU=Security Communication RootCA2, O="SECOM Trust Systems CO.,LTD.", C=JP, Issuer:OU=Security Communication RootCA2, O="SECOM Trust Systems CO.,LTD.", C=JP, Key type:RSA, Length:2048, Cert Id:1521072570, Valid from:29/05/09, 10:30 am, Valid until:29/05/29, 10:30 am
+2023-05-19 15:46:59,184 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:cf08e5c0816a5ad427ff0eb271859d0, Subject:CN=SecureTrust CA, O=SecureTrust Corporation, C=US, Issuer:CN=SecureTrust CA, O=SecureTrust Corporation, C=US, Key type:RSA, Length:2048, Cert Id:2034155325, Valid from:08/11/06, 1:01 am, Valid until:01/01/30, 1:10 am
+2023-05-19 15:46:59,185 DEBUG [main] security  - X509Certificate: Alg:SHA256withECDSA, Serial:75e6dfcbc1685ba8, Subject:CN=SSL.com Root Certification Authority ECC, O=SSL Corporation, L=Houston, ST=Texas, C=US, Issuer:CN=SSL.com Root Certification Authority ECC, O=SSL Corporation, L=Houston, ST=Texas, C=US, Key type:EC, Length:384, Cert Id:-1368293613, Valid from:12/02/16, 11:44 pm, Valid until:12/02/41, 11:44 pm
+2023-05-19 15:46:59,185 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:56b629cd34bc78f6, Subject:CN=SSL.com EV Root Certification Authority RSA R2, O=SSL Corporation, L=Houston, ST=Texas, C=US, Issuer:CN=SSL.com EV Root Certification Authority RSA R2, O=SSL Corporation, L=Houston, ST=Texas, C=US, Key type:RSA, Length:4096, Cert Id:1381862403, Valid from:31/05/17, 11:44 pm, Valid until:30/05/42, 11:44 pm
+2023-05-19 15:46:59,186 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:7b2c9bd316803299, Subject:CN=SSL.com Root Certification Authority RSA, O=SSL Corporation, L=Houston, ST=Texas, C=US, Issuer:CN=SSL.com Root Certification Authority RSA, O=SSL Corporation, L=Houston, ST=Texas, C=US, Key type:RSA, Length:4096, Cert Id:156725711, Valid from:12/02/16, 11:09 pm, Valid until:12/02/41, 11:09 pm
+2023-05-19 15:46:59,187 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:0, Subject:OU=Starfield Class 2 Certification Authority, O="Starfield Technologies, Inc.", C=US, Issuer:OU=Starfield Class 2 Certification Authority, O="Starfield Technologies, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:1825617644, Valid from:29/06/04, 11:09 pm, Valid until:29/06/34, 11:09 pm
+2023-05-19 15:46:59,187 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:0, Subject:CN=Starfield Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, ST=Arizona, C=US, Issuer:CN=Starfield Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, ST=Arizona, C=US, Key type:RSA, Length:2048, Cert Id:-1026641587, Valid from:01/09/09, 5:30 am, Valid until:01/01/38, 5:29 am
+2023-05-19 15:46:59,188 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:0, Subject:CN=Starfield Services Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, ST=Arizona, C=US, Issuer:CN=Starfield Services Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, ST=Arizona, C=US, Key type:RSA, Length:2048, Cert Id:1964785574, Valid from:01/09/09, 5:30 am, Valid until:01/01/38, 5:29 am
+2023-05-19 15:46:59,188 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:bb401c43f55e4fb0, Subject:CN=SwissSign Gold CA - G2, O=SwissSign AG, C=CH, Issuer:CN=SwissSign Gold CA - G2, O=SwissSign AG, C=CH, Key type:RSA, Length:4096, Cert Id:1516221943, Valid from:25/10/06, 2:00 pm, Valid until:25/10/36, 2:00 pm
+2023-05-19 15:46:59,189 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:4eb200670c035d4f, Subject:CN=SwissSign Platinum CA - G2, O=SwissSign AG, C=CH, Issuer:CN=SwissSign Platinum CA - G2, O=SwissSign AG, C=CH, Key type:RSA, Length:4096, Cert Id:771312514, Valid from:25/10/06, 2:06 pm, Valid until:25/10/36, 2:06 pm
+2023-05-19 15:46:59,189 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:4f1bd42f54bb2f4b, Subject:CN=SwissSign Silver CA - G2, O=SwissSign AG, C=CH, Issuer:CN=SwissSign Silver CA - G2, O=SwissSign AG, C=CH, Key type:RSA, Length:4096, Cert Id:126726124, Valid from:25/10/06, 2:02 pm, Valid until:25/10/36, 2:02 pm
+2023-05-19 15:46:59,192 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:95be16a0f72e46f17b398272fa8bcd96, Subject:CN=TeliaSonera Root CA v1, O=TeliaSonera, Issuer:CN=TeliaSonera Root CA v1, O=TeliaSonera, Key type:RSA, Length:4096, Cert Id:1495358374, Valid from:18/10/07, 5:30 pm, Valid until:18/10/32, 5:30 pm
+2023-05-19 15:46:59,193 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:344ed55720d5edec49f42fce37db2b6d, Subject:CN=thawte Primary Root CA, OU="(c) 2006 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US, Issuer:CN=thawte Primary Root CA, OU="(c) 2006 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:643000026, Valid from:17/11/06, 5:30 am, Valid until:17/07/36, 5:29 am
+2023-05-19 15:46:59,193 DEBUG [main] security  - X509Certificate: Alg:SHA384withECDSA, Serial:35fc265cd9844fc93d263d579baed756, Subject:CN=thawte Primary Root CA - G2, OU="(c) 2007 thawte, Inc. - For authorized use only", O="thawte, Inc.", C=US, Issuer:CN=thawte Primary Root CA - G2, OU="(c) 2007 thawte, Inc. - For authorized use only", O="thawte, Inc.", C=US, Key type:EC, Length:384, Cert Id:2068083090, Valid from:05/11/07, 5:30 am, Valid until:19/01/38, 5:29 am
+2023-05-19 15:46:59,194 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:600197b746a7eab4b49ad64b2ff790fb, Subject:CN=thawte Primary Root CA - G3, OU="(c) 2008 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US, Issuer:CN=thawte Primary Root CA - G3, OU="(c) 2008 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:1032730720, Valid from:02/04/08, 5:30 am, Valid until:02/12/37, 5:29 am
+2023-05-19 15:46:59,195 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:1, Subject:CN=T-TeleSec GlobalRoot Class 2, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE, Issuer:CN=T-TeleSec GlobalRoot Class 2, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE, Key type:RSA, Length:2048, Cert Id:-1238464039, Valid from:01/10/08, 4:10 pm, Valid until:02/10/33, 5:29 am
+2023-05-19 15:46:59,195 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:1, Subject:CN=T-TeleSec GlobalRoot Class 3, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE, Issuer:CN=T-TeleSec GlobalRoot Class 3, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE, Key type:RSA, Length:2048, Cert Id:1894096264, Valid from:01/10/08, 3:59 pm, Valid until:02/10/33, 5:29 am
+2023-05-19 15:46:59,196 DEBUG [main] security  - X509Certificate: Alg:SHA384withECDSA, Serial:5c8b99c55a94c5d27156decd8980cc26, Subject:CN=USERTrust ECC Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US, Issuer:CN=USERTrust ECC Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US, Key type:EC, Length:384, Cert Id:-965679910, Valid from:01/02/10, 5:30 am, Valid until:19/01/38, 5:29 am
+2023-05-19 15:46:59,196 DEBUG [main] security  - X509Certificate: Alg:SHA384withRSA, Serial:1fd6d30fca3ca51a81bbc640e35032d, Subject:CN=USERTrust RSA Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US, Issuer:CN=USERTrust RSA Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US, Key type:RSA, Length:4096, Cert Id:-347365895, Valid from:01/02/10, 5:30 am, Valid until:19/01/38, 5:29 am
+2023-05-19 15:46:59,197 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:44be0c8b500024b411d3362de0b35f1b, Subject:CN=UTN-USERFirst-Object, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US, Issuer:CN=UTN-USERFirst-Object, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US, Key type:RSA, Length:2048, Cert Id:-297053428, Valid from:10/07/99, 12:01 am, Valid until:10/07/19, 12:10 am
+2023-05-19 15:46:59,198 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:9b7e0649a33e62b9d5ee90487129ef57, Subject:CN=VeriSign Class 3 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Issuer:CN=VeriSign Class 3 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:2057300190, Valid from:01/10/99, 5:30 am, Valid until:17/07/36, 5:29 am
+2023-05-19 15:46:59,198 DEBUG [main] security  - X509Certificate: Alg:SHA384withECDSA, Serial:2f80fe238c0e220f486712289187acb3, Subject:CN=VeriSign Class 3 Public Primary Certification Authority - G4, OU="(c) 2007 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Issuer:CN=VeriSign Class 3 Public Primary Certification Authority - G4, OU="(c) 2007 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Key type:EC, Length:384, Cert Id:-131493977, Valid from:05/11/07, 5:30 am, Valid until:19/01/38, 5:29 am
+2023-05-19 15:46:59,199 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:18dad19e267de8bb4a2158cdcc6b3b4a, Subject:CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU="(c) 2006 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Issuer:CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU="(c) 2006 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:303010488, Valid from:08/11/06, 5:30 am, Valid until:17/07/36, 5:29 am
+2023-05-19 15:46:59,199 DEBUG [main] security  - X509Certificate: Alg:SHA256withRSA, Serial:401ac46421b31321030ebbe4121ac51d, Subject:CN=VeriSign Universal Root Certification Authority, OU="(c) 2008 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Issuer:CN=VeriSign Universal Root Certification Authority, OU="(c) 2008 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:-1976681486, Valid from:02/04/08, 5:30 am, Valid until:02/12/37, 5:29 am
+2023-05-19 15:46:59,200 DEBUG [main] security  - X509Certificate: Alg:SHA1withRSA, Serial:50946cec18ead59c4dd597ef758fa0ad, Subject:CN=XRamp Global Certification Authority, O=XRamp Security Services Inc, OU=www.xrampsecurity.com, C=US, Issuer:CN=XRamp Global Certification Authority, O=XRamp Security Services Inc, OU=www.xrampsecurity.com, C=US, Key type:RSA, Length:2048, Cert Id:-952474086, Valid from:01/11/04, 10:44 pm, Valid until:01/01/35, 11:07 am
+2023-05-19 15:46:59,259 DEBUG [main] JdkSslContext  - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-05-19 15:46:59,259 DEBUG [main] JdkSslContext  - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-05-19 15:46:59,272 DEBUG [main] GlobalEventExecutor  - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2023-05-19 15:46:59,283 DEBUG [main] MultithreadEventLoopGroup  - -Dio.netty.eventLoopThreads: 24
+2023-05-19 15:46:59,294 DEBUG [main] NioEventLoop  - -Dio.netty.noKeySetOptimization: false
+2023-05-19 15:46:59,294 DEBUG [main] NioEventLoop  - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-05-19 15:46:59,368 DEBUG [main] PooledByteBufAllocator  - -Dio.netty.allocator.numHeapArenas: 24
+2023-05-19 15:46:59,368 DEBUG [main] PooledByteBufAllocator  - -Dio.netty.allocator.numDirectArenas: 24
+2023-05-19 15:46:59,368 DEBUG [main] PooledByteBufAllocator  - -Dio.netty.allocator.pageSize: 8192
+2023-05-19 15:46:59,368 DEBUG [main] PooledByteBufAllocator  - -Dio.netty.allocator.maxOrder: 9
+2023-05-19 15:46:59,368 DEBUG [main] PooledByteBufAllocator  - -Dio.netty.allocator.chunkSize: 4194304
+2023-05-19 15:46:59,368 DEBUG [main] PooledByteBufAllocator  - -Dio.netty.allocator.smallCacheSize: 256
+2023-05-19 15:46:59,368 DEBUG [main] PooledByteBufAllocator  - -Dio.netty.allocator.normalCacheSize: 64
+2023-05-19 15:46:59,368 DEBUG [main] PooledByteBufAllocator  - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-05-19 15:46:59,368 DEBUG [main] PooledByteBufAllocator  - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-05-19 15:46:59,368 DEBUG [main] PooledByteBufAllocator  - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-05-19 15:46:59,368 DEBUG [main] PooledByteBufAllocator  - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-05-19 15:46:59,368 DEBUG [main] PooledByteBufAllocator  - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-05-19 15:46:59,381 DEBUG [main] ByteBufUtil  - -Dio.netty.allocator.type: pooled
+2023-05-19 15:46:59,381 DEBUG [main] ByteBufUtil  - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-05-19 15:46:59,381 DEBUG [main] ByteBufUtil  - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-05-19 15:46:59,631 DEBUG [UrlChecker-2] HttpURLConnection  - sun.net.www.MessageHeader@787791a85 pairs: {GET /status HTTP/1.1: null}{User-Agent: Java/17}{Host: localhost:21140}{Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2}{Connection: keep-alive}
+2023-05-19 15:46:59,634 DEBUG [UrlChecker-2] HttpURLConnection  - sun.net.www.MessageHeader@62bde09b4 pairs: {null: HTTP/1.1 200 OK}{Content-Length: 248}{Content-Type: application/json; charset=utf-8}{cache-control: no-cache}
+2023-05-19 15:46:59,831 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId  - -Dio.netty.processId: 64432 (auto-detected)
+2023-05-19 15:46:59,833 DEBUG [Forwarding newSession on session null to remote] NetUtil  - -Djava.net.preferIPv4Stack: false
+2023-05-19 15:46:59,833 DEBUG [Forwarding newSession on session null to remote] NetUtil  - -Djava.net.preferIPv6Addresses: false
+2023-05-19 15:46:59,842 DEBUG [Forwarding newSession on session null to remote] NetUtilInitializations  - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-05-19 15:46:59,844 DEBUG [Forwarding newSession on session null to remote] NetUtil  - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-05-19 15:46:59,876 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId  - -Dio.netty.machineId: 5c:fb:3a:ff:fe:01:15:d1 (auto-detected)
+2023-05-19 15:46:59,931 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf  - -Dio.netty.buffer.checkAccessible: true
+2023-05-19 15:46:59,931 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf  - -Dio.netty.buffer.checkBounds: true
+2023-05-19 15:46:59,932 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory  - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@653c45af
+2023-05-19 15:46:59,951 DEBUG [AsyncHttpClient-1-2] NettyConnectListener  - Using new Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'POST' to '/session'
+2023-05-19 15:46:59,971 DEBUG [AsyncHttpClient-1-2] Recycler  - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-05-19 15:46:59,971 DEBUG [AsyncHttpClient-1-2] Recycler  - -Dio.netty.recycler.ratio: 8
+2023-05-19 15:46:59,971 DEBUG [AsyncHttpClient-1-2] Recycler  - -Dio.netty.recycler.chunkSize: 32
+2023-05-19 15:46:59,971 DEBUG [AsyncHttpClient-1-2] Recycler  - -Dio.netty.recycler.blocking: false
+2023-05-19 15:46:59,971 DEBUG [AsyncHttpClient-1-2] Recycler  - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2023-05-19 15:47:00,931 DEBUG [AsyncHttpClient-1-2] Brotli  - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-05-19 15:47:00,932 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Content-Length: 513
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 858
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:00,940 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:01,044 DEBUG [AsyncHttpClient-1-3] NettyConnectListener  - Using new Channel '[id: 0xccdd9695, L:/127.0.0.1:49228 - R:localhost/127.0.0.1:49221]' for 'GET' to '/json/version'
+2023-05-19 15:47:01,049 DEBUG [AsyncHttpClient-1-3] HttpHandler  - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /json/version HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+host: localhost:49221
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Security-Policy: frame-ancestors 'none'
+Content-Length: 422
+Content-Type: application/json; charset=UTF-8
+
+2023-05-19 15:47:01,049 DEBUG [AsyncHttpClient-1-3] ChannelManager  - Adding key: http://localhost:49221 for channel [id: 0xccdd9695, L:/127.0.0.1:49228 - R:localhost/127.0.0.1:49221]
+2023-05-19 15:47:01,061 DEBUG [main] ThreadLocalRandom  - -Dio.netty.initialSeedUniquifier: 0x764e34ecd476595d
+2023-05-19 15:47:01,066 DEBUG [AsyncHttpClient-1-4] NettyConnectListener  - Using new Channel '[id: 0xc642f1a7, L:/127.0.0.1:49229 - R:localhost/127.0.0.1:49221]' for 'GET' to '/devtools/browser/1f2c5eb5-d596-4214-a2d9-5c1f7af1e0b8'
+2023-05-19 15:47:01,070 DEBUG [AsyncHttpClient-1-4] WebSocketHandler  - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /devtools/browser/1f2c5eb5-d596-4214-a2d9-5c1f7af1e0b8 HTTP/1.1
+upgrade: websocket
+connection: upgrade
+sec-websocket-key: Op+KSJLrwvjFVtWFW88jFA==
+sec-websocket-version: 13
+origin: http://localhost:49221
+host: localhost:49221
+accept: */*
+user-agent: AHC/2.1
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 101 WebSocket Protocol Handshake
+Upgrade: WebSocket
+Connection: Upgrade
+Sec-WebSocket-Accept: Go21oub+DHTxqxTImEaYqR1qtR4=
+
+2023-05-19 15:47:01,168 DEBUG [Forwarding maximizeCurrentWindow on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using pooled Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'POST' to 'http://localhost:21140/session/01a65cfb14fd983f211ef93d6f425cda/window/maximize'
+2023-05-19 15:47:01,168 DEBUG [Forwarding maximizeCurrentWindow on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using open Channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140] for POST '/session/01a65cfb14fd983f211ef93d6f425cda/window/maximize'
+2023-05-19 15:47:01,305 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/01a65cfb14fd983f211ef93d6f425cda/window/maximize HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Content-Length: 3
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 51
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:01,305 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:01,309 DEBUG [Forwarding setTimeout on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using pooled Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'POST' to 'http://localhost:21140/session/01a65cfb14fd983f211ef93d6f425cda/timeouts'
+2023-05-19 15:47:01,309 DEBUG [Forwarding setTimeout on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using open Channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140] for POST '/session/01a65cfb14fd983f211ef93d6f425cda/timeouts'
+2023-05-19 15:47:01,311 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/01a65cfb14fd983f211ef93d6f425cda/timeouts HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Content-Length: 23
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:01,311 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:01,313 DEBUG [Forwarding get on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using pooled Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'POST' to 'http://localhost:21140/session/01a65cfb14fd983f211ef93d6f425cda/url'
+2023-05-19 15:47:01,313 DEBUG [Forwarding get on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using open Channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140] for POST '/session/01a65cfb14fd983f211ef93d6f425cda/url'
+2023-05-19 15:47:01,430 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:49221 : 1
+2023-05-19 15:47:02,533 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:49221 : 1
+2023-05-19 15:47:03,277 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/01a65cfb14fd983f211ef93d6f425cda/url HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Content-Length: 52
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:03,277 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:03,282 DEBUG [Forwarding findElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using pooled Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'POST' to 'http://localhost:21140/session/01a65cfb14fd983f211ef93d6f425cda/element'
+2023-05-19 15:47:03,282 DEBUG [Forwarding findElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using open Channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140] for POST '/session/01a65cfb14fd983f211ef93d6f425cda/element'
+2023-05-19 15:47:03,308 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/01a65cfb14fd983f211ef93d6f425cda/element HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Content-Length: 65
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 94
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:03,308 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:03,318 DEBUG [Forwarding sendKeysToElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using pooled Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'POST' to 'http://localhost:21140/session/01a65cfb14fd983f211ef93d6f425cda/element/54F1FAD7FA77E9EC410F606A6A009759_element_8/value'
+2023-05-19 15:47:03,318 DEBUG [Forwarding sendKeysToElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using open Channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140] for POST '/session/01a65cfb14fd983f211ef93d6f425cda/element/54F1FAD7FA77E9EC410F606A6A009759_element_8/value'
+2023-05-19 15:47:03,386 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/01a65cfb14fd983f211ef93d6f425cda/element/54F1FAD7FA77E9EC410F606A6A009759_element_8/value HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Content-Length: 157
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:03,386 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:03,389 DEBUG [Forwarding findElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using pooled Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'POST' to 'http://localhost:21140/session/01a65cfb14fd983f211ef93d6f425cda/element'
+2023-05-19 15:47:03,389 DEBUG [Forwarding findElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using open Channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140] for POST '/session/01a65cfb14fd983f211ef93d6f425cda/element'
+2023-05-19 15:47:03,629 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:49221 : 1
+2023-05-19 15:47:03,996 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/01a65cfb14fd983f211ef93d6f425cda/element HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Content-Length: 71
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 95
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:03,996 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:04,000 DEBUG [Forwarding clickElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using pooled Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'POST' to 'http://localhost:21140/session/01a65cfb14fd983f211ef93d6f425cda/element/54F1FAD7FA77E9EC410F606A6A009759_element_29/click'
+2023-05-19 15:47:04,000 DEBUG [Forwarding clickElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using open Channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140] for POST '/session/01a65cfb14fd983f211ef93d6f425cda/element/54F1FAD7FA77E9EC410F606A6A009759_element_29/click'
+2023-05-19 15:47:04,071 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/01a65cfb14fd983f211ef93d6f425cda/element/54F1FAD7FA77E9EC410F606A6A009759_element_29/click HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Content-Length: 57
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:04,071 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:04,073 DEBUG [Forwarding findElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using pooled Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'POST' to 'http://localhost:21140/session/01a65cfb14fd983f211ef93d6f425cda/element'
+2023-05-19 15:47:04,073 DEBUG [Forwarding findElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using open Channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140] for POST '/session/01a65cfb14fd983f211ef93d6f425cda/element'
+2023-05-19 15:47:04,090 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/01a65cfb14fd983f211ef93d6f425cda/element HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Content-Length: 66
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 95
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:04,091 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:04,093 DEBUG [Forwarding sendKeysToElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using pooled Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'POST' to 'http://localhost:21140/session/01a65cfb14fd983f211ef93d6f425cda/element/54F1FAD7FA77E9EC410F606A6A009759_element_10/value'
+2023-05-19 15:47:04,093 DEBUG [Forwarding sendKeysToElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using open Channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140] for POST '/session/01a65cfb14fd983f211ef93d6f425cda/element/54F1FAD7FA77E9EC410F606A6A009759_element_10/value'
+2023-05-19 15:47:04,153 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/01a65cfb14fd983f211ef93d6f425cda/element/54F1FAD7FA77E9EC410F606A6A009759_element_10/value HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Content-Length: 188
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:04,154 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:04,155 DEBUG [Forwarding findElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using pooled Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'POST' to 'http://localhost:21140/session/01a65cfb14fd983f211ef93d6f425cda/element'
+2023-05-19 15:47:04,155 DEBUG [Forwarding findElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using open Channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140] for POST '/session/01a65cfb14fd983f211ef93d6f425cda/element'
+2023-05-19 15:47:04,602 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/01a65cfb14fd983f211ef93d6f425cda/element HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Content-Length: 74
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 95
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:04,602 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:04,604 DEBUG [Forwarding clickElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using pooled Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'POST' to 'http://localhost:21140/session/01a65cfb14fd983f211ef93d6f425cda/element/54F1FAD7FA77E9EC410F606A6A009759_element_31/click'
+2023-05-19 15:47:04,604 DEBUG [Forwarding clickElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using open Channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140] for POST '/session/01a65cfb14fd983f211ef93d6f425cda/element/54F1FAD7FA77E9EC410F606A6A009759_element_31/click'
+2023-05-19 15:47:04,661 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/01a65cfb14fd983f211ef93d6f425cda/element/54F1FAD7FA77E9EC410F606A6A009759_element_31/click HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Content-Length: 57
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:04,661 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:04,663 DEBUG [Forwarding findElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using pooled Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'POST' to 'http://localhost:21140/session/01a65cfb14fd983f211ef93d6f425cda/element'
+2023-05-19 15:47:04,663 DEBUG [Forwarding findElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using open Channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140] for POST '/session/01a65cfb14fd983f211ef93d6f425cda/element'
+2023-05-19 15:47:04,677 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/01a65cfb14fd983f211ef93d6f425cda/element HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Content-Length: 72
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 95
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:04,677 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:04,678 DEBUG [Forwarding clickElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using pooled Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'POST' to 'http://localhost:21140/session/01a65cfb14fd983f211ef93d6f425cda/element/54F1FAD7FA77E9EC410F606A6A009759_element_24/click'
+2023-05-19 15:47:04,678 DEBUG [Forwarding clickElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using open Channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140] for POST '/session/01a65cfb14fd983f211ef93d6f425cda/element/54F1FAD7FA77E9EC410F606A6A009759_element_24/click'
+2023-05-19 15:47:04,726 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/01a65cfb14fd983f211ef93d6f425cda/element/54F1FAD7FA77E9EC410F606A6A009759_element_24/click HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Content-Length: 57
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:04,726 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:04,728 DEBUG [Forwarding findElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using pooled Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'POST' to 'http://localhost:21140/session/01a65cfb14fd983f211ef93d6f425cda/element'
+2023-05-19 15:47:04,728 DEBUG [Forwarding findElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using open Channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140] for POST '/session/01a65cfb14fd983f211ef93d6f425cda/element'
+2023-05-19 15:47:04,732 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:49221 : 1
+2023-05-19 15:47:04,739 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/01a65cfb14fd983f211ef93d6f425cda/element HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Content-Length: 72
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 95
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:04,740 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:04,741 DEBUG [Forwarding getElementText on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using pooled Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'GET' to 'http://localhost:21140/session/01a65cfb14fd983f211ef93d6f425cda/element/54F1FAD7FA77E9EC410F606A6A009759_element_32/text'
+2023-05-19 15:47:04,741 DEBUG [Forwarding getElementText on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using open Channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140] for GET '/session/01a65cfb14fd983f211ef93d6f425cda/element/54F1FAD7FA77E9EC410F606A6A009759_element_32/text'
+2023-05-19 15:47:04,756 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/01a65cfb14fd983f211ef93d6f425cda/element/54F1FAD7FA77E9EC410F606A6A009759_element_32/text HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 20
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:04,756 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:04,759 DEBUG [Forwarding findElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using pooled Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'POST' to 'http://localhost:21140/session/01a65cfb14fd983f211ef93d6f425cda/element'
+2023-05-19 15:47:04,759 DEBUG [Forwarding findElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using open Channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140] for POST '/session/01a65cfb14fd983f211ef93d6f425cda/element'
+2023-05-19 15:47:04,771 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/01a65cfb14fd983f211ef93d6f425cda/element HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Content-Length: 74
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 95
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:04,772 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:04,773 DEBUG [Forwarding clickElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using pooled Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'POST' to 'http://localhost:21140/session/01a65cfb14fd983f211ef93d6f425cda/element/54F1FAD7FA77E9EC410F606A6A009759_element_33/click'
+2023-05-19 15:47:04,773 DEBUG [Forwarding clickElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using open Channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140] for POST '/session/01a65cfb14fd983f211ef93d6f425cda/element/54F1FAD7FA77E9EC410F606A6A009759_element_33/click'
+2023-05-19 15:47:04,821 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/01a65cfb14fd983f211ef93d6f425cda/element/54F1FAD7FA77E9EC410F606A6A009759_element_33/click HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Content-Length: 57
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:04,821 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:04,823 DEBUG [Forwarding findElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using pooled Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'POST' to 'http://localhost:21140/session/01a65cfb14fd983f211ef93d6f425cda/element'
+2023-05-19 15:47:04,824 DEBUG [Forwarding findElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using open Channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140] for POST '/session/01a65cfb14fd983f211ef93d6f425cda/element'
+2023-05-19 15:47:04,838 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/01a65cfb14fd983f211ef93d6f425cda/element HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Content-Length: 73
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 95
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:04,838 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:04,839 DEBUG [Forwarding clickElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using pooled Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'POST' to 'http://localhost:21140/session/01a65cfb14fd983f211ef93d6f425cda/element/54F1FAD7FA77E9EC410F606A6A009759_element_26/click'
+2023-05-19 15:47:04,840 DEBUG [Forwarding clickElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using open Channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140] for POST '/session/01a65cfb14fd983f211ef93d6f425cda/element/54F1FAD7FA77E9EC410F606A6A009759_element_26/click'
+2023-05-19 15:47:04,905 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/01a65cfb14fd983f211ef93d6f425cda/element/54F1FAD7FA77E9EC410F606A6A009759_element_26/click HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Content-Length: 57
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:04,905 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:04,907 DEBUG [Forwarding screenshot on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using pooled Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'GET' to 'http://localhost:21140/session/01a65cfb14fd983f211ef93d6f425cda/screenshot'
+2023-05-19 15:47:04,907 DEBUG [Forwarding screenshot on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using open Channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140] for GET '/session/01a65cfb14fd983f211ef93d6f425cda/screenshot'
+2023-05-19 15:47:05,832 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:49221 : 1
+2023-05-19 15:47:06,930 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:49221 : 1
+2023-05-19 15:47:07,284 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/01a65cfb14fd983f211ef93d6f425cda/screenshot HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 1306284
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:07,339 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:07,428 DEBUG [Forwarding findElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using pooled Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'POST' to 'http://localhost:21140/session/01a65cfb14fd983f211ef93d6f425cda/element'
+2023-05-19 15:47:07,428 DEBUG [Forwarding findElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using open Channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140] for POST '/session/01a65cfb14fd983f211ef93d6f425cda/element'
+2023-05-19 15:47:08,035 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:49221 : 1
+2023-05-19 15:47:08,571 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/01a65cfb14fd983f211ef93d6f425cda/element HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Content-Length: 94
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 95
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:08,571 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:08,573 DEBUG [Forwarding getElementText on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using pooled Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'GET' to 'http://localhost:21140/session/01a65cfb14fd983f211ef93d6f425cda/element/A3893717280D1AC3CDED657846420CEE_element_57/text'
+2023-05-19 15:47:08,573 DEBUG [Forwarding getElementText on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using open Channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140] for GET '/session/01a65cfb14fd983f211ef93d6f425cda/element/A3893717280D1AC3CDED657846420CEE_element_57/text'
+2023-05-19 15:47:08,593 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/01a65cfb14fd983f211ef93d6f425cda/element/A3893717280D1AC3CDED657846420CEE_element_57/text HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 21
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:08,593 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:08,596 DEBUG [Forwarding findElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using pooled Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'POST' to 'http://localhost:21140/session/01a65cfb14fd983f211ef93d6f425cda/element'
+2023-05-19 15:47:08,597 DEBUG [Forwarding findElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using open Channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140] for POST '/session/01a65cfb14fd983f211ef93d6f425cda/element'
+2023-05-19 15:47:08,623 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/01a65cfb14fd983f211ef93d6f425cda/element HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Content-Length: 75
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 95
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:08,623 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:08,626 DEBUG [Forwarding clickElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using pooled Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'POST' to 'http://localhost:21140/session/01a65cfb14fd983f211ef93d6f425cda/element/A3893717280D1AC3CDED657846420CEE_element_58/click'
+2023-05-19 15:47:08,626 DEBUG [Forwarding clickElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using open Channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140] for POST '/session/01a65cfb14fd983f211ef93d6f425cda/element/A3893717280D1AC3CDED657846420CEE_element_58/click'
+2023-05-19 15:47:09,141 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:49221 : 1
+2023-05-19 15:47:09,858 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/01a65cfb14fd983f211ef93d6f425cda/element/A3893717280D1AC3CDED657846420CEE_element_58/click HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Content-Length: 57
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 400 Bad Request
+Content-Length: 1207
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:09,858 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:09,862 DEBUG [Forwarding findElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using pooled Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'POST' to 'http://localhost:21140/session/01a65cfb14fd983f211ef93d6f425cda/element'
+2023-05-19 15:47:09,862 DEBUG [Forwarding findElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using open Channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140] for POST '/session/01a65cfb14fd983f211ef93d6f425cda/element'
+2023-05-19 15:47:09,874 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/01a65cfb14fd983f211ef93d6f425cda/element HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Content-Length: 75
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 95
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:09,874 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:09,874 DEBUG [Forwarding clickElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using pooled Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'POST' to 'http://localhost:21140/session/01a65cfb14fd983f211ef93d6f425cda/element/A3893717280D1AC3CDED657846420CEE_element_58/click'
+2023-05-19 15:47:09,874 DEBUG [Forwarding clickElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using open Channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140] for POST '/session/01a65cfb14fd983f211ef93d6f425cda/element/A3893717280D1AC3CDED657846420CEE_element_58/click'
+2023-05-19 15:47:10,242 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:49221 : 1
+2023-05-19 15:47:11,339 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:49221 : 1
+2023-05-19 15:47:12,441 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:49221 : 1
+2023-05-19 15:47:13,540 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:49221 : 1
+2023-05-19 15:47:14,642 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:49221 : 1
+2023-05-19 15:47:15,742 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:49221 : 1
+2023-05-19 15:47:16,841 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:49221 : 1
+2023-05-19 15:47:17,939 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:49221 : 1
+2023-05-19 15:47:19,041 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:49221 : 1
+2023-05-19 15:47:20,139 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:49221 : 1
+2023-05-19 15:47:21,242 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:49221 : 1
+2023-05-19 15:47:22,330 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:49221 : 1
+2023-05-19 15:47:23,437 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:49221 : 1
+2023-05-19 15:47:24,530 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:49221 : 1
+2023-05-19 15:47:25,629 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:49221 : 1
+2023-05-19 15:47:26,729 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:49221 : 1
+2023-05-19 15:47:27,834 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:49221 : 1
+2023-05-19 15:47:28,929 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:49221 : 1
+2023-05-19 15:47:29,963 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/01a65cfb14fd983f211ef93d6f425cda/element/A3893717280D1AC3CDED657846420CEE_element_58/click HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Content-Length: 57
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 400 Bad Request
+Content-Length: 898
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:29,963 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:29,967 DEBUG [Forwarding findElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using pooled Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'POST' to 'http://localhost:21140/session/01a65cfb14fd983f211ef93d6f425cda/element'
+2023-05-19 15:47:29,967 DEBUG [Forwarding findElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using open Channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140] for POST '/session/01a65cfb14fd983f211ef93d6f425cda/element'
+2023-05-19 15:47:29,989 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/01a65cfb14fd983f211ef93d6f425cda/element HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Content-Length: 75
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 95
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:29,990 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:29,993 DEBUG [Forwarding clickElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using pooled Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'POST' to 'http://localhost:21140/session/01a65cfb14fd983f211ef93d6f425cda/element/A3893717280D1AC3CDED657846420CEE_element_58/click'
+2023-05-19 15:47:29,994 DEBUG [Forwarding clickElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using open Channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140] for POST '/session/01a65cfb14fd983f211ef93d6f425cda/element/A3893717280D1AC3CDED657846420CEE_element_58/click'
+2023-05-19 15:47:30,030 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:49221 : 1
+2023-05-19 15:47:31,131 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:49221 : 1
+2023-05-19 15:47:32,229 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:49221 : 1
+2023-05-19 15:47:33,115 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/01a65cfb14fd983f211ef93d6f425cda/element/A3893717280D1AC3CDED657846420CEE_element_58/click HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Content-Length: 57
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:33,115 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:33,117 DEBUG [Forwarding findElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using pooled Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'POST' to 'http://localhost:21140/session/01a65cfb14fd983f211ef93d6f425cda/element'
+2023-05-19 15:47:33,117 DEBUG [Forwarding findElement on session 01a65cfb14fd983f211ef93d6f425cda to remote] NettyRequestSender  - Using open Channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140] for POST '/session/01a65cfb14fd983f211ef93d6f425cda/element'
+2023-05-19 15:47:33,119 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/01a65cfb14fd983f211ef93d6f425cda/element HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Content-Length: 75
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 404 Not Found
+Content-Length: 864
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:33,119 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:33,139 DEBUG [Driver Command Executor] NettyRequestSender  - Using pooled Channel '[id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]' for 'DELETE' to 'http://localhost:21140/session/01a65cfb14fd983f211ef93d6f425cda'
+2023-05-19 15:47:33,140 DEBUG [Driver Command Executor] NettyRequestSender  - Using open Channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140] for DELETE '/session/01a65cfb14fd983f211ef93d6f425cda'
+2023-05-19 15:47:33,144 DEBUG [AsyncHttpClient-1-4] WebSocketHandler  - Channel Closed: [id: 0xc642f1a7, L:/127.0.0.1:49229 ! R:localhost/127.0.0.1:49221] with attribute NettyResponseFuture{currentRetry=0,
+	isDone=1,
+	isCancelled=0,
+	asyncHandler=org.asynchttpclient.ws.WebSocketUpgradeHandler@205a48e8,
+	nettyRequest=org.asynchttpclient.netty.request.NettyRequest@6998357c,
+	future=java.util.concurrent.CompletableFuture@321fd37f[Completed normally],
+	uri=ws://localhost:49221/devtools/browser/1f2c5eb5-d596-4214-a2d9-5c1f7af1e0b8,
+	keepAlive=true,
+	redirectCount=0,
+	timeoutsHolder=null,
+	inAuth=0,
+	touch=1684491421097}
+2023-05-19 15:47:33,145 DEBUG [AsyncHttpClient-1-4] ChannelManager  - Closing Channel [id: 0xc642f1a7, L:/127.0.0.1:49229 ! R:localhost/127.0.0.1:49221] 
+2023-05-19 15:47:33,239 DEBUG [AsyncHttpClient-1-3] HttpHandler  - Unexpected I/O exception on channel [id: 0xccdd9695, L:/127.0.0.1:49228 - R:localhost/127.0.0.1:49221]
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-05-19 15:47:33,239 DEBUG [AsyncHttpClient-1-3] ChannelManager  - Closing Channel [id: 0xccdd9695, L:/127.0.0.1:49228 - R:localhost/127.0.0.1:49221] 
+2023-05-19 15:47:33,243 DEBUG [AsyncHttpClient-1-3] HttpHandler  - Channel Closed: [id: 0xccdd9695, L:/127.0.0.1:49228 ! R:localhost/127.0.0.1:49221] with attribute DISCARD
+2023-05-19 15:47:33,263 DEBUG [AsyncHttpClient-1-2] HttpHandler  - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+DELETE /session/01a65cfb14fd983f211ef93d6f425cda HTTP/1.1
+User-Agent: selenium/4.8.3 (java windows)
+Content-Type: application/json; charset=utf-8
+host: localhost:21140
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2023-05-19 15:47:33,265 DEBUG [AsyncHttpClient-1-2] ChannelManager  - Adding key: http://localhost:21140 for channel [id: 0x458071ea, L:/127.0.0.1:49220 - R:localhost/127.0.0.1:21140]
+2023-05-19 15:47:33,269 DEBUG [UrlChecker-2] HttpURLConnection  - sun.net.www.MessageHeader@46e1fe705 pairs: {GET /shutdown HTTP/1.1: null}{User-Agent: Java/17}{Host: localhost:21140}{Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2}{Connection: keep-alive}
+2023-05-19 15:47:33,335 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:21140 : 1
+2023-05-19 15:47:33,335 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool  - Entry count for : http://localhost:49221 : 1

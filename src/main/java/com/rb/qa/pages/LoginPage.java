@@ -9,16 +9,18 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
+import com.excel.utility.GeneralUtil;
 import com.rb.qa.base.TestBase;
 
 public class LoginPage extends TestBase {
 	SearchResults searchresults=new SearchResults();
+	GeneralUtil generalutil=new GeneralUtil();
 	
-	public LoginPage()
-	{
+	//public LoginPage()
+	//{
 	
-		super();
-	}
+	//	super();
+	//}
 	//String monthyear;
 	//String date;
 	//@FindBy(id="src")
@@ -29,7 +31,7 @@ public class LoginPage extends TestBase {
 	//WebElement searchbusbtn;
 	
 	
-	public SearchResults searchbuses(String srccity,String destcity)  {
+	public SearchResults searchbuses(String srccity,String destcity) throws Exception  {
 		WebElement sourcecity=driver.findElement(By.xpath("//input[@id='src']"));
 		sourcecity.sendKeys(srccity);
 		WebElement	subsrccitydd=(driver.findElement(By.xpath("//li[(text()='Chennai')]")));
@@ -43,9 +45,10 @@ public class LoginPage extends TestBase {
 		WebElement searchbusbtn=driver.findElement(By.xpath("//button[@id='search_btn']"));
 		searchbusbtn.click();
 		System.out.println(searchbusbtn);
+		generalutil.takeSnapShot(driver,"/Users/Raja/eclipse-workspace/RBPOMtest/test-output/");
 		System.out.println("clicked on button");
 		return searchresults;
-		
+				
 	}
 	public static void onwarddateselection(String monthyear,String date)
 	{
